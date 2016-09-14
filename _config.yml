@@ -1,0 +1,36 @@
+# Site Setup
+title:            Wayward Son Developers
+tagline:          ''
+description:      'Wayward Son Developers is the name I used for a series of side projects.'
+imageurl:         ''
+url:              //waywardsondevelopers.com
+only_frontmatter_categories: true
+
+author:
+  name:           'Mark Bussell Jr. (AnonJr)'
+  url:            https://twitter.com/anonjr
+  img:            '/img/headshot-me.jpg'
+
+# Site Config
+show_drafts:       false
+excerpt_separator: <!--more-->
+
+# Disqus - anonjr.disqus.com
+disqus_short_name: anonjr
+disqus_show_comment_count: true
+
+# Google Analytics
+google_analytics_tracking_id:
+
+# Permalinks
+permalink:        /:year/:month/:title.html
+paginate_path:    "page/:num"
+
+paginate:         5
+
+# Misc
+exclude:
+  - _misc
+  - readme.md
+  - .gitignore
+  - .git
