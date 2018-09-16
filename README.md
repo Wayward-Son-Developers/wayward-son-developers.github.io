@@ -1,2 +1,2 @@
 # waywardsondevelopers.com
-Source for http://waywardsondevelopers.com
+Source for https://waywardsondevelopers.com
