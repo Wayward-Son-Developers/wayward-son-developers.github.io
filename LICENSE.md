@@ -14,7 +14,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-# Website License
+# Wayward Son Developers Website License
 
 ## Attribution-NonCommercial-NoDerivatives 4.0 International
 
