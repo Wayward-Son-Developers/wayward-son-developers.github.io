@@ -2,7 +2,7 @@
 layout: index
 title: Home
 ---
-# Wayward Son Developers
+
 I wanted something other than my personal name to publish some of my solo development work under - and this was it. Here are some of the active projects I'm working on:
 
 ## AnonJr.com
