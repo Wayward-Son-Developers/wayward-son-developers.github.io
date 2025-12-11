@@ -1,36 +1,86 @@
-# Site Setup
-title:            Wayward Son Developers
-tagline:          ''
-description:      'Wayward Son Developers is the name I used for a series of side projects.'
-imageurl:         ''
-url:              //waywardsondevelopers.com
-only_frontmatter_categories: true
+# Setup
+locale            : "en-US"
+title             : 'Wayward Son Developers'
+tagline           : ''
+description       : 'The umbrella for a variety of side projects.'
+logo              : '/img/WSD_Logo3.png' # Path to your logo image
+timezone          : America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+url               : https://www.waywardsondevelopers.com
+baseurl           : # the subpath of your site, e.g. "/blog"
+
+show_drafts       : false
+excerpt_separator : <!--more-->
+
+# Reading Files
+exclude:
+  - .asset-cache
+  - .bundle
+  - .gitattributes
+  - .gitignore
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - wrangler.toml
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 author:
-  name:           'Mark Bussell Jr. (AnonJr)'
-  url:            https://twitter.com/anonjr
+  name:           'Mark Bussell Jr (AnonJr)'
+  url:            https://www.anonjr.com
   img:            '/img/headshot-me.jpg'
 
-# Site Config
-show_drafts:       false
-excerpt_separator: <!--more-->
+# paginate:         5
+# paginate_path:    '/page:num' # Or '/blog/page:num' if you want to move your index pages
 
-# Disqus - anonjr.disqus.com
-disqus_short_name: anonjr
-disqus_show_comment_count: true
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-include-cache
+  - jemoji
+  - tzinfo-data
+  - tzinfo
 
-# Google Analytics
-google_analytics_tracking_id:
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-include-cache
+  - jemoji
+  - tzinfo-data
+  - tzinfo
 
-# Permalinks
-permalink:        /:year/:month/:title.html
-paginate_path:    "page/:num"
-
-paginate:         5
-
-# Misc
-exclude:
-  - _misc
-  - readme.md
-  - .gitignore
-  - .git
+# Sidebar link settings
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.

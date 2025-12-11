@@ -1,17 +1,30 @@
 <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="{{ site.author.name }}" />
-    <meta name="description" content="{{ site.description }} {{ page.description }}" />
+  <link href="https://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-    <title>{{ page.title }} | Wayward Son Developers</title>
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
-    <link href="/img/favicon.ico" rel="icon" type="image/ico" />
-    <link href="/res/styles-min.css" rel="stylesheet" type="text/css" />
-    <link href="/humans.txt" rel="author" type="text/plain" />
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
 
-    <!--[if lt IE 9]>
-    <script type="text/javascript"> window.html5 = { 'shivCSS': false }; </script>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <script>window.html5 || document.write('<script src="/res/html5shiv.js"><\/script>')</script>
-    <![endif]-->
+  {% include google-analytics.html %}
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+  {% include font-includes.html %}
+
+  <!-- Icons -->
+  {% include favicons.html %}
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" />
+
+  {% include custom-head.html %}
 </head>

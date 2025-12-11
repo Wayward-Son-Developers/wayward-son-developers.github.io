@@ -1,0 +1,3 @@
+name = "wayward-son-dev-web"
+compatibility_date = "2025-10-19"
+assets = { directory = "./_site/" }

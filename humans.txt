@@ -3,15 +3,13 @@
 
 # TEAM
     Everything : Mark Bussell Jr (AnonJr)
-    Blog       : http://blog.anonjr.com/
+    Blog       : http://www.anonjr.com/
     Twitter    : @AnonJr
-    CV         : https://careers.stackoverflow.com/anonjr
 
 # SITE
 	Language   : English
 	Standards  : HTML5, CSS3
-	Components : HTML5Shiv, YUI3 CSS Reset
-	Dev Tools  : Visual Studio Code, Paint.NET, Jekyll/Pretzel
+	Dev Tools  : Visual Studio Code, Paint.NET, Jekyll
 
 # SPECIAL THANKS
 	http://browsershots.org/
