@@ -62,6 +62,7 @@ author:
 
 # Plugins (previously gems:)
 plugins:
+  - bigdecimal
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-include-cache
@@ -71,6 +72,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - bigdecimal
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-include-cache
