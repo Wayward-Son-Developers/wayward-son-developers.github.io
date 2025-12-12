@@ -52,6 +52,13 @@ sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+# HTML Compression https://jch.penibelst.de/
+compress_html:
+  blanklines: true
+  clippings: all
+  comments: all
+  profile: false
+
 author:
   name:           'Mark Bussell Jr (AnonJr)'
   url:            https://www.anonjr.com
