@@ -6,7 +6,7 @@ sidebar_sort_order: 1
 ---
 
 ## Games Revisited
-Games Revisited is my "Let's Play" series where I go through classic games I played in my youth (or games from around the same timeframe that I missed). The goal is a brisk pace, but not a speed run - I want to enjoy the game and offer those who haven't played a good look at the story and experience.
+![Games Revisited Logo](/img/logo-GamesRevisited-Full_v1.png){: class="logo-img"} Games Revisited is my "Let's Play" series where I go through classic games I played in my youth (or games from around the same timeframe that I missed). The goal is a brisk pace, but not a speed run - I want to enjoy the game and offer those who haven't played a good look at the story and experience.
 
 Season 8 was put on hiatus due to a depressive episode and later a fight with cancer. For Season 08 of Games Revisited, I returned to the SNES via emulator to play &ldquo;The Legend of Zelda: A Link to the Past&rdquo;. Prior to the hiatus I used [BSNES](https://github.com/bsnes-emu/bsnes) for emulation, after the hiatus I used BSNES as a part of [RetroArch](https://www.retroarch.com/).
 
@@ -20,7 +20,7 @@ We're currently on hiatus. A live stream archive and other videos are over on [m
 More information is over at [CoffeeCraft.us](https://www.coffeecraft.us/).
 
 ## Minecraft Resource Packs
-I fancied a change of pace with some minor aspects of the game, so I put together a pair of Resource Packs - custom voices for [Villagers](https://youtu.be/A3yHT_e2Y9s) and [Wandering Traders](https://youtu.be/X3CFnlJ2ebk). All code is available on [GitHub](https://github.com/AnonJr), and the completed packs are available for [download on Planet Minecraft](https://www.planetminecraft.com/member/anonjr/submissions) too. I may add more as the whim strikes, but since my cancer journey I haven't really been back to Minecraft.
+![Miinecraft Bust](/img/MinecraftBust.png){: class="logo-img"} I fancied a change of pace with some minor aspects of the game, so I put together a pair of Resource Packs - custom voices for [Villagers](https://youtu.be/A3yHT_e2Y9s) and [Wandering Traders](https://youtu.be/X3CFnlJ2ebk). All code is available on [GitHub](https://github.com/AnonJr), and the completed packs are available for [download on Planet Minecraft](https://www.planetminecraft.com/member/anonjr/submissions) too. I may add more as the whim strikes, but since my cancer journey I haven't really been back to Minecraft.
 
 ## ASP-Ajaxed
 ![ASP-Ajaxed Logo](/img/logo-aspajaxed.png){: class="logo-img"} Michal Gabrukiewicz and a number of [other contributors](http://www.asp-ajaxed.org/about/) created an awesome library for those using [ASP Classic](https://en.wikipedia.org/wiki/Active_Server_Pages). I used it in many different projects. Michal passed away, but the site remained active.
