@@ -10,6 +10,10 @@ sidebar_sort_order: 2
 
 For some time this forum package became the foundation for several sites. I'd even started work on a fork, scratching a few itches and such. Sadly I never did finish due to some health issues halting much of my dev work.
 
+It's been a while since I was active, but I'll keep the reference here as working with this project was a major influence in my growth as a programmer.
+
+Check them out over at [the main site](https://forum.snitz.com/), and see the new .NET MVC version in action in the [support forums](https://forum.snitz.com/forum/AllForums).
+
 ## Jesus Joshua 24:15
 ![Jesus Joshua 24:15 Logo](/img/jesusjoshua2415.png){: class="logo-img"} [Jesus Joshua 24:15](https://web.archive.org/web/20250719105619/http://jesusjoshua2415.com/) was a local (to where I lived at the time) Christian Rock group with a big heart for the Lord. I'd helped them with their website since&hellip; a while. Somewhere in 2001/2002 I needed a project for one of my web programming classes. Fortunately, my friends in the band needed a new website. The first version I put together was a step up from what was there before, but still fairly simple. Over the years I continually tweaked and adjusted as the needs of the band changed and as my skill level grew.
 
