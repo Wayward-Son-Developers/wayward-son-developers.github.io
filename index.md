@@ -9,10 +9,9 @@ I wanted something other than my personal name to publish some of my solo develo
 ![AnonJr Logo](/img/logo-anonjr.png){: class="logo-img"} [AnonJr.com](https://www.anonjr.com/) is my personal website. Almost everything I do online is under the "AnonJr" handle where I can get it. Here's where I keep the active updates and anything else that's going on.
 
 ## Bible By Example
-![Bible By Example Logo](/img/logo-biblebyexample.png){: class="logo-img"} [Bible By Example](https://www.biblebyexample.com/) is a podcast dedicated to covering Scripture in a way that enables discussion between believers and non-believers. This show is about going through the Christian scripture book by book, chapter by chapter, word for word - and we won’t skip the hard parts.
+![Bible By Example Logo](/img/logo-biblebyexample.png){: class="logo-img"} [Bible By Example](https://www.biblebyexample.com/) is a long-form, text-first Bible study podcast for anyone who wants to read Scripture responsibly - whether you’re new to Christianity, returning to it, or simply curious.
 
-My goal is to do this in a way that enables discussion between believers and non-believers. This is not a preachy service, but a walk through what really is and isn’t in the scripture so we can have a constructive debate and not get distracted by arguing over things that aren’t really there in the first place.
+I’m not a pastor or a scholar; I’m a fellow traveler walking through the Bible chapter by chapter, focusing on what the text actually says. Along the way, I highlight where major Christian traditions differ, explain translation choices, and occasionally dive into language or history when it genuinely helps. If you want grounded, thoughtful study without denominational spin, this is your place.
 
-I also want to be clear about what we will not be covering: we will not be going deep into the various issues and trivia that divide the different denominations. If there’s enough support on the Patreon page, I may set up a separate show for that purpose. This main podcast will remain centered around the core of Christian belief that is common to all denominations - what C. S. Lewis referred to as “Mere Christianity”.
-
-(Still working on a more succinct explanation)
+## LibriVox Audiobooks
+![LibriVox Logo](/img/logo-librivox.png){: class="logo-img"} [LibriVox](https://librivox.org/) is a wonderful project working to make all books in the public domain available, narrated by real people and distributed for free, in audio format on the internet. I'm volunteering there as an author, and you can find those contributions on [my reader page](https://librivox.org/reader/20637).
