@@ -74,7 +74,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-include-cache
-  - tzinfo-data
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -83,7 +82,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-include-cache
-  - tzinfo-data
 
 # Sidebar link settings
 sidebar_home_link:  true
