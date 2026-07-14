@@ -69,23 +69,21 @@ author:
 
 # Plugins (previously gems:)
 plugins:
-  - bigdecimal
+  - jekyll-sass-converter
+  - jemoji
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-include-cache
-  - jemoji
   - tzinfo-data
-  - tzinfo
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - bigdecimal
+  - jekyll-sass-converter
+  - jemoji
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-include-cache
-  - jemoji
   - tzinfo-data
-  - tzinfo
 
 # Sidebar link settings
 sidebar_home_link:  true
