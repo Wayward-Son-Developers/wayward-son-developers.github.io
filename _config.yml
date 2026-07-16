@@ -1,11 +1,11 @@
 # Setup
 locale            : "en-US"
-title             : 'Wayward Son Developers'
+#title            Defined in _config.dev.yml and _config.prod.yml
 tagline           : ''
 description       : 'The umbrella for a variety of side projects.'
 logo              : '/img/WSD_Logo3.png' # Path to your logo image
 timezone          : America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-url               : https://www.waywardsondevelopers.com
+#url              Defined in _config.dev.yml and _config.prod.yml
 baseurl           : # the subpath of your site, e.g. "/blog"
 
 show_drafts       : false
@@ -13,13 +13,18 @@ excerpt_separator : <!--more-->
 
 # Reading Files
 exclude:
+  - _config.dev.yml
+  - _config.prod.yml
   - .asset-cache
   - .bundle
+  - .editorconfig
   - .gitattributes
   - .gitignore
   - .jekyll-assets-cache
+  - .ruby-version
   - .sass-cache
-  - CNAME
+  - .scripts/
+  - .vscode/
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
@@ -33,7 +38,6 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
 incremental: false
 
 # Markdown Processing
@@ -69,15 +73,6 @@ author:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-sass-converter
-  - jemoji
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-include-cache
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-sass-converter
   - jemoji
   - jekyll-sitemap
   - jekyll-gist
@@ -85,7 +80,4 @@ whitelist:
 
 # Sidebar link settings
 sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog page. If you change your paginate_path,set this to the root of the paginate_path to enable a separate blog link.
