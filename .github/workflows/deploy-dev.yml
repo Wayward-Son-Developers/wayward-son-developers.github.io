@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   build:
-    uses: AnonJr/Jekyll-Template/.github/workflows/jekyll-build.yml@v1.0.0
+    uses: Wayward-Son-Developers/Jekyll-Template/.github/workflows/jekyll-build.yml@v1.0.0
     with:
       staging-cname: 'dev.waywardsondevelopers.com'
       jekyll-configs: '_config.yml,_config.dev.yml'
