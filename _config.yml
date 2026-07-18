@@ -1,75 +1,117 @@
-# Setup
-locale            : "en-US"
-#title            Defined in _config.dev.yml and _config.prod.yml
-tagline           : ''
-description       : 'The umbrella for a variety of side projects.'
-logo              : '/img/WSD_Logo3.png' # Path to your logo image
-timezone          : America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-#url              Defined in _config.dev.yml and _config.prod.yml
-baseurl           : # the subpath of your site, e.g. "/blog"
+# Site Settings and Jekyll Config - https://jekyllrb.com/docs/configuration/
+locale                   : "en-US"
+#title                   : Defined in _config.dev.yml and _config.prod.yml
+tagline                  : ''
+description              : 'The umbrella for a variety of side projects.'
+logo                     : '/assets/res/WSD_Logo3.png' # Path to your logo image
+#url                     : Defined in _config.dev.yml and _config.prod.yml
+baseurl                  : # the subpath of your site, e.g. "/blog"
 
-show_drafts       : false
-excerpt_separator : <!--more-->
+repository               : "Wayward-Son-Developers/wayward-son-developers.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+
+date_format              : "%d %b %Y" # "%d %b %Y %H:%M" if I want to include time later
+timezone                 : America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+encoding                 : "utf-8"
+markdown_ext             : "markdown,mkdown,mkdn,mkd,md"
+
+show_drafts              : false
+future                   : false
+
+
+# Sidebar link settings
+sidebar_home_link        : true
+# sidebar_blog_link        :  '/blog'   # By default, your home page is your blog page. If you change your paginate_path,set this to the root of the paginate_path to enable a separate blog link.
+
+
+# Site Author used by several plugins.
+author:
+  name                   : 'Mark Bussell Jr (AnonJr)'
+  url                    : https://www.anonjr.com
+  img                    : '/assets/res/headshot-me.jpg'
+  # avatar                 : "" # path of avatar image, e.g. "/assets/res/bio-photo.jpg"
+  # bio                    :
+  # location               :
+  # email                  :
+  # fediverse              : "@you@instance.social"  # used for fediverse:creator meta tag
+
 
 # Reading Files
+include:
+  - .htaccess
+#  - _pages - Don't put this here unless you want the directory to be processed twice
 exclude:
+  # Environment-specific configuration
   - _config.dev.yml
   - _config.prod.yml
+
+  # Build caches
   - .asset-cache
   - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+
+  # Development tooling
   - .editorconfig
   - .gitattributes
+  - .github/
   - .gitignore
-  - .jekyll-assets-cache
   - .ruby-version
-  - .sass-cache
   - .scripts/
   - .vscode/
+
+  # Build dependencies
   - Gemfile
   - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+  # Repository documentation
   - LICENSE.md
   - README.md
+
+  # Deployment
   - wrangler.toml
 
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-incremental: false
+markdown                 : kramdown
+highlighter              : rouge
+lsi                      : false
+excerpt_separator        : <!--more-->
+incremental              : false
 
-# Markdown Processing
+
+# Markdown Processing - If GFM, https://kramdown.gettalong.org/quickref.html / https://github.com/kramdown/parser-gfm
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  auto_ids               : true
+  enable_coderay         : false
+  entity_output          : as_char
+  footnote_nr            : 1
+  hard_wrap              : false
+  input                  : GFM
+  smart_quotes           : lsquo,rsquo,ldquo,rdquo
+  toc_levels             : 1..6
 
-# Sass/SCSS
+
+# Sass/SCSS - https://github.com/jekyll/jekyll-sass-converter
 sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  sass_dir               : _sass
+  # style: compressed # Defined in _config.dev.yml and _config.prod.yml; https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  quiet_deps             : true
+  silence_deprecations   : ['import']
+
 
 # HTML Compression https://jch.penibelst.de/
+# Put `compress_html: false` in the frontmatter to disable on an individual page/post.
 compress_html:
-  blanklines: true
-  clippings: all
-  comments: all
-  profile: false
+  blanklines             : true
+  clippings              : all
+  comments               : all
+  ignore:
+    envs                 : [development]
+  profile                : false
 
-author:
-  name:           'Mark Bussell Jr (AnonJr)'
-  url:            https://www.anonjr.com
-  img:            '/img/headshot-me.jpg'
-
-# paginate:         5
-# paginate_path:    '/page:num' # Or '/blog/page:num' if you want to move your index pages
 
 # Plugins (previously gems:)
 plugins:
@@ -77,7 +119,30 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-include-cache
+#  - jekyll-seo-tag # Consider adding
 
-# Sidebar link settings
-sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog page. If you change your paginate_path,set this to the root of the paginate_path to enable a separate blog link.
+
+# Search Engine Optimization metadata - https://github.com/jekyll/jekyll-seo-tag
+twitter:
+  username               : # The site's Twitter handle
+  card                   : # The site's default card type
+
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+
+og_image                 : # Open Graph/Twitter default site image
+og_image_alt             : # Alt text for Open Graph/Twitter default site image
+
+# For specifying social profiles - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+google_site_verification :
+bing_site_verification   :
+naver_site_verification  :
+yandex_site_verification :
+baidu_site_verification  :
