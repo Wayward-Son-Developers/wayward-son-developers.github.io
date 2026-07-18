@@ -82,16 +82,16 @@ gem "jekyll-gist"
 # https://github.com/jekyll/jekyll-include-cache
 gem "jekyll-include-cache"
 
-# Pagination support.
-# https://github.com/jekyll/jekyll-paginate
-# gem "jekyll-paginate"
+# Pagination support - pick one, v2 requires more configuration.
+# gem "jekyll-paginate"    # https://github.com/jekyll/jekyll-paginate
+# gem "jekyll-paginate-v2" # https://github.com/sverrirs/jekyll-paginate-v2
 
 
 #--------------------------------------------------------
 # Windows Support
 #--------------------------------------------------------
 
-platforms :mingw, :mswin, :x64_mingw, :jruby do
+platforms :windows, :jruby do
 
   # Windows timezone database - https://rubygems.org/gems/tzinfo-data
   gem "tzinfo-data"
